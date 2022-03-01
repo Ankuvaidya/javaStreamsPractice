@@ -12,7 +12,7 @@ public class CountVowelsnConstants {
 
 	public static void main(String[] args) {
 
-		String ref = "MyNameisAnkita";
+		String ref = "MyNameisAnkitaVaidya";
 		long countOfChar = ref.chars().count();
 		long vowel = ref.chars().filter(r -> vowels.contains((char) r)).count();
 		long consonants = ref.chars().filter(r -> !vowels.contains((char) r)).count();
